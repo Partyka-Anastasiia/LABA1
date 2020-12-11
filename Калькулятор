@@ -1,0 +1,11 @@
+a = input('Введіть 1 число >>')
+b = input('Введіть 2 число >>')
+c = input('Введіть арифметичний знак ( +-*/ ): >>')
+if c == '+':
+    print(int(a) + int(b))
+if c == '-':
+    print(int(a) - int(b))
+if c == '*':
+    print(int(a) * int(b))
+if c == '/':
+    print(int(a) / int(b))
